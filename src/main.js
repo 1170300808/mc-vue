@@ -5,6 +5,7 @@ import mavonEditor from 'mavon-editor'
 import 'mavon-editor/dist/css/index.css'
 import 'echarts/theme/macarons.js'
 import store from './store'
+// import axios from 'axios'
 
 import {
   Pagination,
@@ -124,6 +125,7 @@ Vue.prototype.$confirm = MessageBox.confirm
 Vue.prototype.$prompt = MessageBox.prompt
 Vue.prototype.$notify = Notification
 Vue.prototype.$message = Message
+// Vue.prototype.$http = axios
 
 var axios = require('axios')
 axios.defaults.baseURL = 'http://localhost:8443/api'

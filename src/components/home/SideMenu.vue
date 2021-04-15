@@ -8,12 +8,12 @@
           <span slot="title">技术采用</span>
         </el-menu-item>
       </a>
-      <a href="#update-card">
-        <el-menu-item index="2">
-          <i class="el-icon-menu"></i>
-          <span slot="title">用户指南</span>
-        </el-menu-item>
-      </a>
+<!--      <a href="#update-card">-->
+<!--        <el-menu-item index="2">-->
+<!--          <i class="el-icon-menu"></i>-->
+<!--          <span slot="title">用户指南</span>-->
+<!--        </el-menu-item>-->
+<!--      </a>-->
       <a href="#slogan">
         <el-menu-item index="3">
           <i class="el-icon-document"></i>

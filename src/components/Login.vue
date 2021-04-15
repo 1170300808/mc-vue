@@ -5,7 +5,8 @@
       <h3 class="login_title">欢迎登录MatCloud系统</h3>
       <el-form-item prop="username">
         <el-input type="text" v-model="loginForm.username"
-                  auto-complete="off" placeholder="邮箱"></el-input>
+                  auto-complete="off" placeholder="用户名"></el-input>
+                                                <!--用户名/手机号/邮箱-->
       </el-form-item>
       <el-form-item prop="password">
         <el-input type="password" v-model="loginForm.password"
