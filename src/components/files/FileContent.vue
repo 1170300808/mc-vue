@@ -53,7 +53,7 @@
     methods: {
       loadFiles () {
         var _this = this
-        var url = 'files/' + '1' + '/'
+        var url = 'files/'
         this.$axios.get(url).then(resp => {
           if (resp && resp.data.code === 200) {
             _this.files = resp.data.result
