@@ -17,16 +17,16 @@
 <!--    <div>111:{{files}}</div>-->
     <el-row :gutter="20" v-for="item in files" :key="item.id">
       <el-col :span="6">
-        <div class="grid-content bg-purple">{{item.name}}</div>
+        <div class="grid-content bg-purple"><p>{{item.name}}</p></div>
       </el-col>
       <el-col :span="6">
-        <div class="grid-content bg-purple">{{item.createdTime}}</div>
+        <div class="grid-content bg-purple"><p>{{item.createdTime}}</p></div>
       </el-col>
       <el-col :span="6">
-        <div class="grid-content bg-purple">{{item.modifiedTime}}</div>
+        <div class="grid-content bg-purple"><p>{{item.modifiedTime}}</p></div>
       </el-col>
       <el-col :span="6">
-        <div class="grid-content bg-purple">{{item.content}}</div>
+        <div class="grid-content bg-purple"><router-link to="/files"><p style="text-decoration: underline">点击查看</p></router-link></div>
       </el-col>
     </el-row>
   </div>
@@ -59,6 +59,9 @@
             _this.files = resp.data.result
           }
         })
+      },
+      checkFiles () {
+        // var _this = this
       }
     }
   }
